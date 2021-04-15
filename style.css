@@ -1,0 +1,35 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+/* common area */
+html{
+    --brighttextcolor: #ffffff; 
+    --darktextcolor:#a9a9a9;
+    /* #282828 shadow */
+}
+body{
+    height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 5.5fr;
+    height:87vh;
+}
+.left{
+    background-color: black;
+
+}
+.left li{
+    color: var(--darktextcolor);
+}
+.right{
+    background-color:#121212;  
+}
+footer{
+    height: 13vh;
+    background-color:#191919;
+}
+
