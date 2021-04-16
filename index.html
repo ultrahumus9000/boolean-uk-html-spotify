@@ -6,32 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="left.css">
 </head>
 <body>
     <main>
         <div class="left">
             <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Search</li>
-                    <li>Your Library</li>
+                <img class="logoicon" height="50px"   src="asset/img/logo.svg" alt=""> 
+                <ul class="topnav">
+                    <a href=""><li class="homeoption">  <img width="25px" src="asset/img/home.svg" alt=""> Home</li></a> 
+                    <a href=""> <li> 
+                        <svg width="25px" viewBox="0 0 512 512" fill="grey" xmlns="http://www.w3.org/2000/svg"><path d="M349.714 347.937l93.714 109.969-16.254 13.969-93.969-109.969q-48.508 36.825-109.207 36.825-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 37.841-14.73 71.619t-40.889 58.921zM224 377.397q43.428 0 80.254-21.461t58.286-58.286 21.461-80.254-21.461-80.254-58.286-58.285-80.254-21.46-80.254 21.46-58.285 58.285-21.46 80.254 21.46 80.254 58.285 58.286 80.254 21.461z" fill-rule="evenodd"/></svg>
+                        Search</li></a>  
+                    <a href="">  <li> <img width="25px" src="asset/img/libreria.svg" alt=""> Your Library</li></a> 
                 </ul>
-                <ul>
-                    <li>Playlist</li>
-                    <li>Playlist</li>
-                    <li>Playlist</li>
-                    <li>Playlist</li>
-                </ul>
+                <ul class="playlist"> <span> Playlist </span>
+                    <li> <svg class="invisible"  role="img" height="20" width="20"  viewBox="0 0 16 16" class="Svg-ulyrgf-0 dIsYZz"><path fill="black"  d="M14 7H9V2H7v5H2v2h5v5h2V9h5z"></path><path fill="none" d="M0 0h16v16H0z"></path></svg>Create Playlist</li>
+                    <li> 
+                        <svg role="img" height="20" width="20" viewBox="0 0 16 16" class="Svg-ulyrgf-0 dIsYZz"><path fill="#6c6f97" d="M0 0h16v16H0z"></path><path d="M13.797 2.727a4.057 4.057 0 00-5.488-.253.558.558 0 01-.31.112.531.531 0 01-.311-.112 4.054 4.054 0 00-5.487.253c-.77.77-1.194 1.794-1.194 2.883s.424 2.113 1.168 2.855l4.462 5.223a1.791 1.791 0 002.726 0l4.435-5.195a4.052 4.052 0 001.195-2.883 4.057 4.057 0 00-1.196-2.883z"></path></svg> 
+                         Liked Songs</li>
             </nav>
+            <p> <svg  width="25px"  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="#a9a9a9"><title>Download icon</title><path d="M12 11.657V6h-1v5.65L9.076 9.414l-.758.65 3.183 3.702 3.195-3.7-.758-.653L12 11.657zM11.5 2C7.358 2 4 5.358 4 9.5c0 4.142 3.358 7.5 7.5 7.5 4.142 0 7.5-3.358 7.5-7.5C19 5.358 15.642 2 11.5 2zm0 14C7.916 16 5 13.084 5 9.5S7.916 3 11.5 3 18 5.916 18 9.5 15.084 16 11.5 16z"  fill-rule="evenodd"/></svg>Install App</p>
         </div>
 <!-- left finished -->
         <div class="right">
-            <div class="rightheader"></div>
-            <div class="rightmain"></div>
+            <div class="rightheader">
+                <button><img width="25px" src="https://scontent-man2-1.xx.fbcdn.net/v/t1.18169-0/c0.4.206.206a/p206x206/15134736_366172297064018_4070063511899363603_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=da31f3&_nc_ohc=31ezpcLrexIAX_42kLA&_nc_ht=scontent-man2-1.xx&tp=27&oh=c1273eeaf53e76766b0f5316aada139b&oe=609E1C05" alt=""> <span>琳琳李</span> </button>
+            </div>
+            <div class="rightmain">
+                <nav class="rightmainnavbar">
+                    <ul>
+                        <li>TR<span>END</span>ING</li>
+                        <li>PODCASTE</li>
+                        <li>CHART</li>
+                        <li>GENRES AND MOODS</li>
+                        <li>BRAND NEW</li>
+                        <li>DISCOVER</li>
+                    </ul>
+                </nav>
+<!-- nav bar finished -->
+                <section class="albums" >
+                <section class=" Recently played album">
+                    <h2>Recently played</h2>
+                    <div class="inneralbum">
+                        <div>
+                            <img src="asset/img/metal_lifting.jpg" alt="">
+                            <h3>Heavy Mental</h3>
+                            <p>Anonymous</p>
+                        </div>
+                        <div>
+                            <img src="asset/img/stranger.jpeg" alt="">
+                            <h3>Stranger things Vol 1</h3>
+                            <p>Kyle Dixson</p>
+                        </div>
+                        <div>
+                            <img  src="asset/img/sinister.jpeg" alt="">
+                            <h3>Sinnister</h3>
+                            <p>Anonymous</p>
+                        </div>
+                        <div>
+                            <img  src="asset/img/mixdaily.jpeg" alt="">
+                            <h3>Mixdaily</h3>
+                            <p>Anonymous</p>
+                        </div>
+                        <div>
+                            <img  src="asset/img/radar.jpeg" alt="">
+                            <h3>Radar</h3>
+                            <p>Anonymous</p>
+                        </div>
+                        <div>
+                            <img  src="asset/img/sinister.jpeg" alt="">
+                            <h3>Sinnister</h3>
+                            <p>Anonymous</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- finished -->
+                <section class=" Create for joe album" >
+                    <h2>Create for joe</h2>
+                    <div class="inneralbum">
+                        <div>
+                            <img src="asset/img/metal_lifting.jpg" alt="">
+                            <h3>Heavy Mental</h3>
+                            <p>Anonymous</p>
+                        </div>
+                        <div>
+                            <img  src="asset/img/stranger.jpeg" alt="">
+                            <h3>Stranger things Vol 1</h3>
+                            <p>Kyle Dixson</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- fininshed -->
+                <section class=" Popular Artist album" >
+                    <h2>Popular Artist</h2>
+                    <div class="inneralbum">
+                        <div>
+                            <img src="asset/img/radar.jpeg" alt="">
+                            <h3>Radar</h3>
+                            <p>Anonymous</p>
+                        </div>
+                        <div>
+                            <img  src="asset/img/sinister.jpeg" alt="">
+                            <h3>Sinnister</h3>
+                            <p>Anonymous</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- finished -->
+                </section>
+
+
+            </div>
         </div>
 <!-- right finished -->
     </main>
 <!-- main finished   -->
-    <footer></footer>
+    <footer>
+        <img width="60px" src="data:image/jpeg;base64,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" alt="">
+        <div class="textfooter">
+            <h3>Juste Une Photo De Toi</h3>
+            <p>Matt Pokora</p>
+        </div>
+        <svg fill="cyan"  role="img" height="16" width="16" viewBox="0 0 16 16" class="Svg-ulyrgf-0 dIsYZz"><path d="M13.764 2.727a4.057 4.057 0 00-5.488-.253.558.558 0 01-.31.112.531.531 0 01-.311-.112 4.054 4.054 0 00-5.487.253A4.05 4.05 0 00.974 5.61c0 1.089.424 2.113 1.168 2.855l4.462 5.223a1.791 1.791 0 002.726 0l4.435-5.195A4.052 4.052 0 0014.96 5.61a4.057 4.057 0 00-1.196-2.883zm-.722 5.098L8.58 13.048c-.307.36-.921.36-1.228 0L2.864 7.797a3.072 3.072 0 01-.905-2.187c0-.826.321-1.603.905-2.187a3.091 3.091 0 012.191-.913 3.05 3.05 0 011.957.709c.041.036.408.351.954.351.531 0 .906-.31.94-.34a3.075 3.075 0 014.161.192 3.1 3.1 0 01-.025 4.403z"></path></svg>
+        <?xml  version="1.0" encoding="UTF-8" standalone="no"?> <svg fill="cyan" height="16" width="16" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>folder, file, archive, document, office</title><path d="M21,5H11.72l-.32-1A3,3,0,0,0,8.56,2H3A3,3,0,0,0,0,5V19a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V8A3,3,0,0,0,21,5Zm1,14a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V5A1,1,0,0,1,3,4H8.56a1,1,0,0,1,.95.68L10.28,7H21a1,1,0,0,1,1,1Z"/></svg>
+        <audio controls src="juste.mp3"> juste photo</audio>
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?> <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" fill="green"  clip-rule="evenodd" d="M0 5C0 3.34315 1.34315 2 3 2H17C18.6569 2 20 3.34315 20 5H21C22.6569 5 24 6.34315 24 8V19C24 20.6569 22.6569 22 21 22H16C14.6938 22 13.5825 21.1652 13.1707 20H7C6.44772 20 6 19.5523 6 19C6 18.4477 6.44772 18 7 18H9V16H3C1.34315 16 0 14.6569 0 13V5ZM11 16V18H13V16H11ZM13 14V8C13 6.34315 14.3431 5 16 5H18C18 4.44772 17.5523 4 17 4H3C2.44772 4 2 4.44772 2 5V13C2 13.5523 2.44772 14 3 14H13ZM16 7C15.4477 7 15 7.44772 15 8V19C15 19.5523 15.4477 20 16 20H21C21.5523 20 22 19.5523 22 19V8C22 7.44772 21.5523 7 21 7H16ZM17 10C17 9.44772 17.4477 9 18 9H19C19.5523 9 20 9.44772 20 10C20 10.5523 19.5523 11 19 11H18C17.4477 11 17 10.5523 17 10Z" fill="#293644"/>
+            </svg>
+        <svg role="presentation" height="16" width="16" fill="green"  viewBox="0 0 16 16" class="Svg-ulyrgf-0 dIsYZz"><path d="M12.945 1.379l-.652.763c1.577 1.462 2.57 3.544 2.57 5.858s-.994 4.396-2.57 5.858l.651.763a8.966 8.966 0 00.001-13.242zm-2.272 2.66l-.651.763a4.484 4.484 0 01-.001 6.397l.651.763c1.04-1 1.691-2.404 1.691-3.961s-.65-2.962-1.69-3.962zM0 5v6h2.804L8 14V2L2.804 5H0zm7-1.268v8.536L3.072 10H1V6h2.072L7 3.732z"></path></svg>
+        <meter min="200" max="500" value="350"></meter>
+    </footer>
 </body>
 </html>
