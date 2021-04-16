@@ -143,6 +143,9 @@ main {
   .left {
     width: 80px;
   }
+  .left .homebutton {
+    background-color: none;
+  }
   .logoicon {
     display: none;
   }
@@ -152,7 +155,7 @@ main {
   .playlist {
     display: none;
   }
-  .left p {
+  .left p span {
     display: none;
   }
   footer audio {
