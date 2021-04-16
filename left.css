@@ -83,34 +83,3 @@ footer p {
 audio {
   margin: 0px auto;
 }
-@media screen and (max-width: 740px) {
-  .left {
-    width: 80px;
-  }
-  .left .homeoption {
-    background-color: transparent;
-  }
-  .logoicon {
-    display: none;
-  }
-  .topnav li span {
-    display: none;
-  }
-  .playlist {
-    display: none;
-  }
-  .left p {
-    display: none;
-  }
-  footer audio {
-    display: none;
-  }
-  @media screen and (max-width: 400px) {
-    .left {
-      display: none;
-    }
-    footer meter {
-      display: none;
-    }
-  }
-}
